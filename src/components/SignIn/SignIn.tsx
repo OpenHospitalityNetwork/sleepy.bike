@@ -56,7 +56,7 @@ export const SignIn = () => {
     try {
       await handleSelectIssuer(issuer)
     } catch (e) {
-      alert(JSON.stringify(e))
+      alert(e)
     }
   })
 
